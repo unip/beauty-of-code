@@ -1,5 +1,5 @@
-Beauty of Code
-==============
+PPG Tangerang Selatan
+=====================
 
-A messy code would be seen as a beautiful scenes by a nerd.
-
+My first project and repo ;)
+The current project is still a HTML coding and some of javascript.
