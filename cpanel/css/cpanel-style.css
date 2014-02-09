@@ -1,0 +1,137 @@
+* {
+	color: inherit;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	font-family: Calibri, sans-serif;
+	border: none;
+}
+
+body {
+	height: 100%;
+	background-color: #99ff99;
+	position: relative;
+}
+
+#content {
+	overflow: hidden;
+}
+
+#header {
+	margin: 30px 0 0 30px;
+	float: left;
+	position: relative;
+}
+
+#header div#logo {
+	height: 250px;
+	background-color: #ED145B;
+	margin-right: 20px;
+	top: -30px;
+	position: relative;
+	float: left;
+}
+
+#header h1 {
+	color: #339967;
+	line-height: 47pt;
+	font-size: 50pt;
+	font-family: DINCond-Regular, sans-serif;
+	font-weight: normal;
+	float: left;
+}
+
+#header h2 {
+	color: #7cd37c;
+	font-size: 24pt;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+#login {
+	color: #99ff99;
+	width: 400px;
+	height: 380px;
+	background-color: #339967;
+	margin: 30px 30px 0 0;
+	float: right;
+	position: relative;
+}
+
+#login h3 {
+	color: white;
+	font-weight: normal;
+	font-size: 24pt;
+	font-family: DINCond-Regular, sans-serif;
+	margin: 20px 0 80px 20px;
+}
+
+#login div#icon {
+	text-align: center;
+	width: 60px;
+	height: 30px;
+	background-color: #7CD37C;
+	float: left;
+	border-radius: 5px 0 0 5px;
+}
+
+#login div#icon i {line-height: 30px; font-size: 14pt;}
+
+#login input {
+	width: 300px;
+	height: 30px;
+	padding: 0 10px;
+	float: right;
+	border-radius: 0 5px 5px 0;
+}
+
+#login input:focus {
+	box-shadow: 0 0 5px #ED145B inset;
+}
+
+#login a {margin-left: 20px;}
+
+#login div#username,
+#login div#password {
+	width: 360px;
+	color: #339967;
+	margin: 20px;
+	overflow: hidden;
+}
+
+#login button {
+	color: white;
+	font-size: 14pt;
+	width: 400px;
+	height: 50px;
+	background-color: #ED145B;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#login button:hover {cursor: pointer;}
+
+#footer {
+	color: #339967;
+	line-height: 50px;
+	height: 50px;
+	margin: 0 30px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#footer a {
+	float: left;
+}
+
+#footer p {
+	float: right;
+}
+
+a.decoration:hover {text-decoration: underline;}
+a.opacity:hover {opacity: 0.7;}
