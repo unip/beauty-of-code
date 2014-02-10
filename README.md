@@ -1,5 +1,5 @@
-ppg-tangsel
-===========
+PPG Tangerang Selatan Project
+=============================
 
 This repository containts a *baked* HTML template of **PPG Tangerang Selatan Website** for further development.
 Here is the Control Panel template and still HTML too. I use FontAwesome for icon image.
